@@ -1,13 +1,15 @@
 function stringChop(str, size) {
   // your code here
+	
+	let resultArr = [];
 	if (str == null) {
-    return '';
+    return resultArr;
   }
   let trimmed = str.trim();
   if (trimmed.length == 0) {
     return '';
+  
   }
-  let resultArr = [];
   let j = 0;
   while (j < trimmed.length) {
     let count = 0;
