@@ -11,7 +11,7 @@ function stringChop(str, size) {
   while (j < trimmed.length) {
     let count = 0;
     let resultString = '';
-    while (count < size) {
+    while (count < size && j<trimmed.length) {
       resultString += trimmed.charAt(j);
       count++;
       j++;
