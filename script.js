@@ -1,14 +1,11 @@
 function stringChop(str, size) {
-  // your code here
-	
-	let resultArr = [];
-	if (str == null) {
+  let resultArr = [];
+  if (str == null) {
     return resultArr;
   }
   let trimmed = str.trim();
   if (trimmed.length == 0) {
     return '';
-  
   }
   let j = 0;
   while (j < trimmed.length) {
